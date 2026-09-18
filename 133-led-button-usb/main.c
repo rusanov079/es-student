@@ -48,13 +48,14 @@ int main()
     bool previous = false;
 
     while (1) {
+        // sleep_ms(1000);
         bool current = get_button_debounce(BUTTON_PIN);
         if (previous == true && current == false) {
             led = !led;
-            set_led(led);
+            gpio_put(LED_PIN, led);
         }
         previous = current;
-        
+
         int command = getchar_timeout_us(0);
 
         if (command == PICO_ERROR_TIMEOUT) {
