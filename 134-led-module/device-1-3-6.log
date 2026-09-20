@@ -3,17 +3,17 @@
 устройство: 2e8a:000a
 серийный номер: E66540F0A325742C
 порт: COM4
-начало: 2026-09-20T22:28:14
+начало: 2026-09-21T00:30:05
    0.000 --> v
-   0.015 <-- dbg main:58 got v
-   0.015 <-- device: es-led-module 1.0.0, built Sep 20 2026 22:27:30, log level 3
-   1.015 --> e
-   1.031 <-- dbg main:58 got e
-   1.031 <-- inf handle_command:19 led on
-   2.031 --> d
-   2.046 <-- dbg main:58 got d
-   2.046 <-- inf handle_command:23 led off
-   3.062 --> q
-   3.062 <-- dbg main:58 got q
-   3.062 <-- err handle_command:29 unknown command: q
+   0.000 <-- dbg main:62 got v
+   0.000 <-- device: es-led-module 1.0.0, built Sep 21 2026 00:25:58, log level 3
+   1.016 --> e
+   1.016 <-- dbg main:62 got e
+   1.016 <-- inf handle_command:20 led on
+   2.016 --> d
+   2.016 <-- dbg main:62 got d
+   2.016 <-- inf handle_command:24 led off
+   3.032 --> q
+   3.032 <-- dbg main:62 got q
+   3.032 <-- err handle_command:33 unknown command: q
 итог: отправлено команд 4
