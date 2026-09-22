@@ -3,14 +3,14 @@
 устройство: 2e8a:000a
 серийный номер: E66540F0A325742C
 порт: COM4
-начало: 2026-09-22T00:10:35
+начало: 2026-09-22T22:33:00
    0.000 --> enable
-   0.141 <-- enable
-   0.141 <-- dbg read_line:54 got enable
-   0.141 <-- inf handle_command:25 led on
-   2.188 --> disable
-   2.344 <-- disable
-   2.344 <-- dbg read_line:54 got disable
+   0.140 <-- enable
+   0.140 <-- dbg read_line:54 got enable
+   0.140 <-- inf handle_command:25 led on
+   2.187 --> disable
+   2.328 <-- disable
+   2.328 <-- dbg read_line:54 got disable
    2.344 <-- inf handle_command:29 led off
    4.375 --> info
    4.453 <-- info
@@ -18,11 +18,11 @@
    4.453 <-- project: 211-command-usb
    4.453 <-- repo: https://github.com/rusanov079/es-student
    4.453 <-- board: pico
-   4.453 <-- serial: E66540F0A325742C
-   4.453 <-- chip: manufacturer 0x927, part 0x0002, revision 2
-   4.453 <-- pico-sdk: 2.3.0
-   6.500 --> nosuchcommand
-   6.782 <-- nosuchcommand
-   6.782 <-- dbg read_line:54 got nosuchcommand
-   6.782 <-- err handle_command:38 unknown command: �
+   4.469 <-- serial: E66540F0A325742C
+   4.469 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   4.469 <-- pico-sdk: 2.3.0
+   6.484 --> nosuchcommand
+   6.765 <-- nosuchcommand
+   6.765 <-- dbg read_line:54 got nosuchcommand
+   6.765 <-- err handle_command:38 unknown command: nosuchcommand
 итог: отправлено команд 4, принято строк 17

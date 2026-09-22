@@ -35,7 +35,7 @@ void handle_command(const char *command) {
         device_info();
     }
     else {
-        LOG_ERR("unknown command: %c\n", command);
+        LOG_ERR("unknown command: %s\n", command);
     }
 }
 
