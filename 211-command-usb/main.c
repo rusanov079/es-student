@@ -67,7 +67,7 @@ void handle_command(const char *command) {
             return;
         }
     }
-    LOG_ERR("Unknown command: %s\n", command);
+    LOG_ERR("unknown command: %s\n", command);
 }
 
 void read_line(void) {
