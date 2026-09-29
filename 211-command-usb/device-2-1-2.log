@@ -3,30 +3,30 @@
 устройство: 2e8a:000a
 серийный номер: E66540F0A325742C
 порт: COM4
-начало: 2026-09-30T00:10:35
+начало: 2026-09-30T00:18:52
    0.000 --> enable
    0.125 <-- enable
    0.125 <-- dbg read_line:85 got enable
    0.125 <-- inf cmd_enable:24 led on
-   2.172 --> disable
-   2.329 <-- disable
-   2.344 <-- dbg read_line:85 got disable
-   2.344 <-- inf cmd_disable:29 led off
-   4.375 --> info
-   4.469 <-- info
-   4.469 <-- dbg read_line:85 got info
-   4.469 <-- project: 211-command-usb
-   4.469 <-- repo: https://github.com/rusanov079/es-student
-   4.469 <-- board: pico
-   4.469 <-- serial: E66540F0A325742C
-   4.469 <-- chip: manufacturer 0x927, part 0x0002, revision 2
-   4.469 <-- pico-sdk: 2.3.0
-   6.516 --> ping
-   6.610 <-- ping
-   6.610 <-- dbg read_line:85 got ping
-   6.610 <-- pong
+   2.157 --> disable
+   2.313 <-- disable
+   2.313 <-- dbg read_line:85 got disable
+   2.313 <-- inf cmd_disable:29 led off
+   4.360 --> info
+   4.454 <-- info
+   4.454 <-- dbg read_line:85 got info
+   4.454 <-- project: 211-command-usb
+   4.454 <-- repo: https://github.com/rusanov079/es-student
+   4.454 <-- board: pico
+   4.454 <-- serial: E66540F0A325742C
+   4.454 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   4.454 <-- pico-sdk: 2.3.0
+   6.500 --> ping
+   6.594 <-- ping
+   6.594 <-- dbg read_line:85 got ping
+   6.594 <-- pong
    8.641 --> nosuchcommand
    8.907 <-- nosuchcommand
    8.907 <-- dbg read_line:85 got nosuchcommand
-   8.907 <-- err handle_command:70 Unknown command: nosuchcommand
+   8.907 <-- err handle_command:70 unknown command: nosuchcommand
 итог: отправлено команд 5, принято строк 20
