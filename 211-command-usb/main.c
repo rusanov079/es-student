@@ -5,6 +5,7 @@
 #include "led.h"
 #include "log.h"
 #include "device.h"
+#include "memory.h"
 
 #define LINE_SIZE 32
 
@@ -41,6 +42,10 @@ void cmd_ping(void) {
     printf("pong\n");
 }
 
+void cmd_mem_info(void) {
+    mem_info();
+}
+
 typedef void (*command_handler_t)(void);
 
 struct command_t {
@@ -54,6 +59,7 @@ const struct command_t commands[] = {
     {"info", cmd_info},
     {"version", cmd_version},
     {"ping", cmd_ping},
+    {"mem_info", cmd_mem_info},
 };
 
 #define COMMAND_COUNT (sizeof(commands) / sizeof(commands[0]))
